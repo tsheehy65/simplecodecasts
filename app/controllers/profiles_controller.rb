@@ -3,7 +3,7 @@ class ProfilesController < ApplicationController
    def new 
        # Adds new user, by fillout their own user profile
        @user = User.find(params[:user_id])
-       @profile = @user.build_profile
+       @profile = Profile.new
    end
    
    def create 
