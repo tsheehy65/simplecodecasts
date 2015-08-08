@@ -57,3 +57,6 @@ gem 'stripe', '1.16.1'
 
 # Use figaro for yaml
 gem 'figaro', '1.0.0'
+
+# add image stuff for profile via paperclip
+gem 'paperclip', '4.2.1'
