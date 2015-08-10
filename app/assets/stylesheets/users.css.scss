@@ -24,9 +24,20 @@
     border-color: #46b8da;
 }
 
-.round {
+.well.white-bg {
+    background-color: #fff;
+}
+.user-show-avatar {
     border-radius: 50%;
     -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);    
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);  
+    height: 128px;
+    width: 128px;
+}
+.user-index-avatar {
+    border-radius: 50%;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);  
 }

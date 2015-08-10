@@ -60,3 +60,6 @@ gem 'figaro', '1.0.0'
 
 # add image stuff for profile via paperclip
 gem 'paperclip', '4.2.1'
+
+# add pre fixer for css
+gem 'autoprefixer-rails'
